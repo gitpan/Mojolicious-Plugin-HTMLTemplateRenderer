@@ -8,6 +8,6 @@ WriteMakefile(
   VERSION_FROM => 'lib/Mojolicious/Plugin/HTMLTemplateRenderer.pm',
   ABSTRACT     => 'Mojolicious Plugin to render templates with HTML::Template',
   AUTHOR       => 'Bob Faist <bfaist@cpan.org>',
-  PREREQ_PM    => {'Mojolicious' => '2.0'},
+  PREREQ_PM    => {'Mojolicious' => '2.0', 'HTML::Template' => '2.0'},
   test         => {TESTS => 't/*.t'}
 );
