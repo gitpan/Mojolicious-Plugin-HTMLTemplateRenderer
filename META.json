@@ -33,10 +33,10 @@
       "runtime" : {
          "requires" : {
             "HTML::Template" : "2.0",
-            "Mojolicious" : "2.0"
+            "Mojolicious" : "4.0"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.03"
+   "version" : "0.04"
 }

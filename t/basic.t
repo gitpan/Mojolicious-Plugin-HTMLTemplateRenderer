@@ -9,7 +9,7 @@ plugin 'HTMLTemplateRenderer';
 
 get '/' => sub {
   my $self = shift;
-  $self->render_text('Hello Mojo!');
+  $self->render(text => 'Hello Mojo!');
 };
 
 get '/ht_test_1' => sub {

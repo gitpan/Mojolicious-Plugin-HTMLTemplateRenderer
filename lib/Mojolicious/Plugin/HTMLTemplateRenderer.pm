@@ -4,7 +4,7 @@ use Mojo::Base 'Mojolicious::Plugin';
 
 use HTML::Template;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub register {
   my ($self, $app, $conf) = @_;

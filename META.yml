@@ -19,5 +19,5 @@ no_index:
     - inc
 requires:
   HTML::Template: 2.0
-  Mojolicious: 2.0
-version: 0.03
+  Mojolicious: 4.0
+version: 0.04
